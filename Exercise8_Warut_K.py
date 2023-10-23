@@ -29,10 +29,10 @@ if userName == "Customer" and passWord =="1234":
         totalItem = int(input( "ระบุจำนวนสินค้าที่ต้องการ =>"))
         print("--------------------------------")
         print("สรุปลายละเอียด")
-        print("หนังสือการ์ตูน One Piece เล่มที่ 1           x"+totalItem,totalItem*35)
+        print("หนังสือการ์ตูน One Piece เล่มที่ 2  จำนวน ",totalItem," ราคา",totalItem*35,"บาท")
         vat = ((totalItem * 35)*7)/100
-        print("Vat 7%                                " ,vat)
-        print("ราคารวม                      ",(totalItem*35)+vat)
+        print("Vat 7%                                                                                      " ,vat,"บาท")
+        print("ราคารวม                                                                                    ",(totalItem*35)+vat,"บาท")
     elif selectItem == 2:
         print("สินค้าที่คุณเลือก คือ หนังสือการ์ตูน One Piece เล่มที่ 3 ")
         print("ราคาต่อเล่ม            35 บาท")
@@ -40,10 +40,10 @@ if userName == "Customer" and passWord =="1234":
         totalItem = int(input( "ระบุจำนวนสินค้าที่ต้องการ =>"))
         print("--------------------------------")
         print("สรุปลายละเอียด")
-        print("หนังสือการ์ตูน One Piece เล่มที่ 1           x"+totalItem,totalItem*35)
+        print("หนังสือการ์ตูน One Piece เล่มที่ 3   จำนวน ",totalItem," ราคา",totalItem*35,"บาท")
         vat = ((totalItem * 35)*7)/100
-        print("Vat 7%                                " ,vat)
-        print("ราคารวม                      ",(totalItem*35)+vat)
+        print("Vat 7%                                                                                      " ,vat,"บาท")
+        print("ราคารวม                                                                                    ",(totalItem*35)+vat,"บาท")
     else:
          print("คุณทำรายการไม่ถูกต้อง กรุณาทำรายการใหม่")
          print("ขอบคุณครับ")
